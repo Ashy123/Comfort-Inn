@@ -1,0 +1,42 @@
+.offers{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-between;
+        padding: 200px; 
+        margin-bottom: -200px;
+        
+} 
+.words{
+        width: 500px;
+        height: 200px;
+        font-size: large;
+        font-weight: 100;
+        font-style: oblique;
+        
+}
+.speck{
+        font-size: 50px;
+        font-style: italic;
+        width: 5px;
+}
+.img{
+        justify-content: space-between;
+        margin: 20px;
+}
+.row img{
+        float: left;
+        justify-content: space-between;
+        display: flex;
+        width: 420px;
+        height: 400px;
+    }
+.row::after{
+        clear: both;
+        display: table;
+        justify-content: space-between;
+        margin-left: 50px;
+        
+}
+
